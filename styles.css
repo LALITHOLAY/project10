@@ -1,0 +1,131 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #000; /* Black background */
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Distribute content evenly */
+    align-items: center; /* Vertically center items */
+  }
+  
+  /* Navbar items */
+  .navbar-items {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-items input {
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    padding: 8px 15px;
+    background-color: #ff0000; /* Red background */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Main container layout */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 1284px;
+    margin: 0 auto;
+  }
+  
+  /* Side content layout */
+  .side-content {
+    background-color: #f4f4f4;
+    height: 463px; /* Height matching the image */
+    width: 250px; /* Adjust width as needed */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; /* Center align items */
+  }
+  
+  /* Logo section */
+  .logo-section img {
+    max-width: 100%;
+  }
+  
+  /* Quick links */
+  .quick-links ul {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Center align text */
+  }
+  
+  .quick-links li {
+    margin-bottom: 10px;
+  }
+  
+  .quick-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* About us */
+  .about-us h2 {
+    margin-bottom: 10px;
+    text-align: center; /* Center align text */
+  }
+  
+  /* Main content layout */
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Image section */
+  .image-section {
+    margin-bottom: 20px;
+  }
+  
+  .image-section img {
+    width: 100%;
+    max-width: 1284px;
+    height: auto;
+    border-radius: 30px;
+  }
+  
+  /* Parallel images */
+  .parallel-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1284px;
+    margin-top: 20px;
+  }
+  
+  .parallel-images img {
+    width: calc(33.33% - 10px);
+    border-radius: 10px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    flex: 0.3;
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
